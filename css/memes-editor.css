@@ -113,12 +113,63 @@
     flex-direction: column;
   }
   .meme-editor-section .meme-canvas {
-    width: 70vw;
-    height: 70vw;
+    width: 50vw;
+    height: 50vw;
   }
 
   .meme-editor-section .control-panel {
-    width: 80vw;
-    height: 80vw;
+    width: 60vw;
+    height: 60vw;
+    padding: 0.5rem;
+  }
+
+  .control-top-div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .color-input {
+    width: 30px;
+    height: 30px;
+  }
+
+  .font-edit-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .text-input {
+    padding: 0.5rem 0.75rem;
+    height: 30px;
+  }
+
+  .left-text,
+  .center-text,
+  .right-text,
+  .line-position,
+  .font-size {
+    height: 24px;
+    font-size: 0.8rem;
+  }
+
+  .control-center-div {
+    gap: 0.5rem;
+  }
+
+  .control-center-div div:first-child {
+    gap: 1rem;
+  }
+
+  .control-center-div div:first-child button {
+    font-size: 0.8rem;
+    padding: 0.3rem;
+  }
+
+  .control-bottom-div button,
+  .control-bottom-div a {
+    font-size: 0.7rem;
+    padding: 0.3rem;
   }
 }
