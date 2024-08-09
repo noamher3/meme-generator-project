@@ -111,8 +111,9 @@
 @media screen and (max-width: 600px) {
   .meme-editor-section {
     flex-direction: column;
-    padding-bottom: 4rem;
-    margin-bottom: 4rem;
+    padding-bottom: 6rem;
+    margin-bottom: 6rem;
+    overflow-y: scroll;
   }
   .meme-editor-section .meme-canvas {
     width: 50vw;

@@ -34,8 +34,10 @@
 
   .gallery-section {
     gap: 1rem;
-    padding-bottom: 4rem;
-    margin-bottom: 4rem;
+    padding-bottom: 6rem;
+    margin-bottom: 6rem;
+    height: 100vh;
+    overflow-y: scroll;
   }
 
   .gallery-section h2 {
