@@ -112,7 +112,6 @@
   .meme-editor-section {
     flex-direction: column;
     padding-bottom: 6rem;
-    margin-bottom: 6rem;
     overflow-y: scroll;
   }
   .meme-editor-section .meme-canvas {
