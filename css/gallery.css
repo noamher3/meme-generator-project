@@ -34,7 +34,9 @@
 
   .gallery-section {
     gap: 1rem;
+    padding-bottom: 4rem;
   }
+
   .gallery-section h2 {
     margin-top: 1rem;
   }

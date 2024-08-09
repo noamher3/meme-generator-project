@@ -111,6 +111,7 @@
 @media screen and (max-width: 600px) {
   .meme-editor-section {
     flex-direction: column;
+    padding-bottom: 4rem;
   }
   .meme-editor-section .meme-canvas {
     width: 50vw;
