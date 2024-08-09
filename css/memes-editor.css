@@ -112,6 +112,7 @@
   .meme-editor-section {
     flex-direction: column;
     padding-bottom: 4rem;
+    margin-bottom: 4rem;
   }
   .meme-editor-section .meme-canvas {
     width: 50vw;
